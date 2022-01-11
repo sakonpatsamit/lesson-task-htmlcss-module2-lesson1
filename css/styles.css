@@ -30,7 +30,10 @@ header a {
 .cta {
   background-color: #bb0000;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px 80px;
+    border-radius: 5px;
 }
 
 .reviews {
@@ -43,8 +46,54 @@ header a {
 
 .cta-sale {
   background-color: #127300;
+
 }
 
 footer {
   text-align: center;
 }
+
+/* Home Page */
+.welcome {
+  background-image: url("../images/home-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom ;
+  min-height: 70vh;
+}
+
+.welcome__content {
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+
+
+
+.selling-points__images {
+  border-radius: 100px;
+}
+
+.review__images {
+  border-radius: 50%;
+}
+
+ul {
+  padding: 0px;
+}
+
+li {
+  display: inline;
+}
+
+nav a {
+  padding: 10px;
+}
+
+.current {
+  font-weight: bold;
+}
+
+
