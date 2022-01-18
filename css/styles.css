@@ -17,6 +17,14 @@ h2,
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  margin-left: 25px;
+}
 header,
 footer {
   background-color: #202020;
@@ -61,10 +69,12 @@ footer {
   background-position-x: right;
   background-position-y: bottom ;
   min-height: 70vh;
+  position: relative;
 }
 
 .welcome__content {
-  position: relative;
+  position: absolute;
+  text-align: center;
   top: 100px;
   left: 100px;
 }
